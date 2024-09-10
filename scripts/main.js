@@ -5,7 +5,7 @@ document.getElementById('testButton').addEventListener('click', function() {
 // Регистрация сервисного рабочего
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/service-worker.js')
+        navigator.serviceWorker.register('./service-worker.js')
         .then(function(registration) {
             console.log('Service Worker зарегистрирован с областью:', registration.scope);
         })
