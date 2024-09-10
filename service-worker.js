@@ -1,11 +1,11 @@
 const CACHE_NAME = 'my-pwa-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles/main.css',
-  '/scripts/main.js',
-  '/images/icon192.png',
-  '/images/icon512.png'
+  './',
+  './index.html',
+  './styles/main.css',
+  './scripts/main.js',
+  './images/icon192.png',
+  './images/icon512.png'
 ];
 
 // Устанавливаем сервисный рабочий и кэшируем файлы
